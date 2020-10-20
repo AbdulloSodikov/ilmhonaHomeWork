@@ -3,7 +3,7 @@ package Abdullo.ilmhona;
 public class Main {
 
     public static void main(String[] args) {
-        int[] arrayInPosAndNegNumber = {1, -2, 3, -4, 5, -6, 7, -8, 9, -10, 20};  // Задача № 5
+        int[] arrayInPosAndNegNumber = {1, -2, 3, -4, 5, -6, 7, -8, 9, -10, 20};
         int[] arrayOnlyPosNumber = filterArray(arrayInPosAndNegNumber);
 
     }

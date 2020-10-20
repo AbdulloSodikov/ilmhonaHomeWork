@@ -3,7 +3,7 @@ package Abdullo.ilmhona;
 public class Main {
 
     public static void main(String[] args) {
-        int[] array = {10, 2, 3, 4, 5, 60, 7, 8, 91};  // Задача № 4
+        int[] array = {10, 2, 3, 4, 5, 60, 7, 8, 91};
         int maxNumberInArray = maxInArray(array);
         
     }

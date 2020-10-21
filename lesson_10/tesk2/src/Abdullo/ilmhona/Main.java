@@ -21,13 +21,12 @@ public class Main {
     object3.weight = 60;
     object3.countryOfOrigin = "Китай";
 
-    
-    }
+        }
 }
 class Apple {
 
     String  variety; // сорт
-    String color; // цвет
+    String color;   // цвет
     double weight; // вес
     String countryOfOrigin; // страна происхождения
 

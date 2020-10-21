@@ -21,6 +21,7 @@ public class Main {
     object3.weight = 60;
     object3.countryOfOrigin = "Китай";
 
+    
         }
 }
 class Apple {

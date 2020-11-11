@@ -2,6 +2,10 @@ package Abdullo.ilmhona;
 
 public class Main {
 
+	/*/ Дана строка. Определите, какой символ в ней
+	встречается раньше: 'x' или 'w'. Если какого-то
+	из символов нет, вывести сообщение об этом./*/
+
 	public static void main(String[] args) {
 		String myString = "Hello world";
 

@@ -19,6 +19,10 @@ public class Main {
         System.out.println(newString);
 
 
+        /* второй вариант*/
+
+        String newString2 = myString.replaceAll(word,letter);
+        System.out.println(newString2);
         }
     }
 

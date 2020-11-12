@@ -8,23 +8,23 @@ public class Main {
 
 	public static void main(String[] args) {
 		String myString = "Hello world";
+		int x = myString.indexOf('x');
+		int w = myString.indexOf('w');
 
-		if (myString.indexOf('x') >= 0 && myString.indexOf('x') < myString.indexOf('w')) {
-			System.out.println("x" + " -встречается раньше");
-		} else if (myString.indexOf('x') >= 0 && myString.indexOf('w') < 0) {
-			System.out.println('x' + " -встречается раньше");
+		if(x == w){
+			System.out.println("В строке 'х' и  'w' отсутствують");
 		}
-		if (myString.indexOf('w') >= 0 && myString.indexOf('w') < myString.indexOf('x')) {
-			System.out.println('w'+ " -встречается раньше");
-		} else if (myString.indexOf('w') >= 0 && myString.indexOf('x') < 0) {
-			System.out.println('w' + " -встречается раньше");
+		else if (x == -1){
+			System.out.println("В строке 'x' отсутствует, индекс 'w' в строке=[" + w + "]" );
+		} else if (w == -1){
+			System.out.println("В строке 'w' отсутствует, индекс 'x' в строке=[" + x + "]" );
+		} else if (x<w){
+			System.out.println("'x' в строке встречается первым");
+		} else {
+			System.out.println("'w' в строке встречается первым");
 		}
-		if (myString.indexOf('x') < 0) {
-			System.out.println('x' + " -отсутствует в строке");
-		} else if (myString.indexOf('w') < 0) {
-			System.out.println('w' + " -отсутствует в строке");
 
-		}
+
 	}
 
 }
